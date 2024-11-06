@@ -1,0 +1,18 @@
+@props(['title', 'successAttempts'])
+
+<article class="rounded-xl border-t-8 border-emerald-600 bg-neutral-50">
+    <div class="flex items-start gap-4 p-4 sm:p-6 lg:p-8">
+      <div>
+        <span class="font-medium text-2xl  text-emerald-800">{{ __($title) }}:</span>
+      </div>
+  
+      <div>
+        <span class="font-medium text-2xl text-emerald-800">
+          {{ $successAttempts }}
+        </span>
+  
+
+    </div>
+  
+    
+  </article>
